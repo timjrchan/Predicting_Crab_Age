@@ -3,5 +3,6 @@ numpy
 matplotlib
 seaborn
 scipy
+statsmodels
 scikit-learn
 XGBoost
