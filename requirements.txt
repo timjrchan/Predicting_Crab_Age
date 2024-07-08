@@ -1,8 +1,10 @@
 pandas
-numpy
+numpy==1.26
 matplotlib
 seaborn
 scipy
 statsmodels
 scikit-learn
 XGBoost
+catboost
+lightgbm
