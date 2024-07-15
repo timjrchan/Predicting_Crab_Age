@@ -7,7 +7,7 @@ This project focuses on predicting the age of crabs from physical measurements a
 # Crab Measurements
 
 
-[<img src='../images/Measurement-of-width-and-length-of-crab-Source-FAO.png'>]([https://link-to-your-URL](https://www.researchgate.net/figure/Measurement-of-width-and-length-of-crab-Source-FAO_fig2_316495313)/)
+<img src='../images/Measurement-of-width-and-length-of-crab-Source-FAO.png'>
 
 
 ## Data Dictionary
