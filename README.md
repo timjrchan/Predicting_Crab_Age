@@ -4,8 +4,6 @@
 This project focuses on predicting the age of crabs from physical measurements and other derived features. Using machine learning techniques, the goal is to accurately estimate crab age, which is crucial for ecological research and fisheries management.
 
 
-Data Dictionary
-Variable	Description
 # Crab Measurements
 
 <img src = '../images/Measurement-of-width-and-length-of-crab-Source-FAO.png' alt = 'https://www.researchgate.net/figure/Measurement-of-width-and-length-of-crab-Source-FAO_fig2_316495313'>
