@@ -1,13 +1,12 @@
+<img src = "https://img.freepik.com/free-vector/smiling-pink-crab-cartoon-sticker_1308-76561.jpg?t=st=1721051674~exp=1721055274~hmac=f17fb49d0d6838c10a7600abde3fa51b3bf38fb2aef83ed503d159e72cea23e8&w=826" style="float: left; margin: 40px; height: 100px">
+
 # Crab Age Prediction
 
 ## Introduction
-This project focuses on predicting the age of crabs from physical measurements and other derived features. Using machine learning techniques, the goal is to accurately estimate crab age, which is crucial for ecological research and fisheries management.
+This project is part of our participation in the Kaggle competition aimed at predicting the age of crabs using various measurements. The primary objective is to develop a machine learning model that can achieve the lowest Mean Absolute Error (MAE) score. The details and datasets for the competition are hosted on [Kaggle](https://www.kaggle.com/competitions/playground-series-s3e16/overview).
 
-
-# Crab Measurements
-
-
-<img src='../images/Measurement-of-width-and-length-of-crab-Source-FAO.png'>
+## Motivation
+Our motivation for joining this competition is to apply and enhance our machine learning skills in a practical, competitive environment. By tackling this challenge, we aim to explore advanced feature engineering techniques and optimize machine learning algorithms to produce a model with high accuracy and robustness. This competition provides a platform to benchmark our approach against a community of data scientists, offering valuable insights and feedback.
 
 
 ## Data Dictionary
