@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import XGBoost as xgb
+import xgboost as xgb
 from sklearn.model_selection import cross_validate
 
 
@@ -40,5 +40,3 @@ def convert_float32(some_dataframe):
 # Conversion to DMatrix
 def convert_to_dmatrix(X, y):
     return xgb.DMatrix(data=X, label=y)
-
-
