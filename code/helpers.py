@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import xgboost as xgb
 from sklearn.model_selection import cross_validate
 
 
@@ -24,21 +25,18 @@ def clean_headers(some_dataframe: pd.DataFrame):
     return some_dataframe
 
 
-# Function to get CV results out
+# Function to convert variables to float32
 
-def get_cv_results(model, X,y, no_of_folds):
+def convert_float32(some_dataframe):
 
-    '''
-    
-    '''
+    columns = some_dataframe.columns.to_list()
 
-    cv_results = cross_validate(model, X, y, cv = no_of_folds,
-                                scoring = ('neg_mean_absolute_error', 'neg_mean_squared_error', 'r2'),
-                                return_train_score = True)
-    
-    print('Cross Validation Results:')
+    for col in columns:
+        some_dataframe[col] = some_dataframe[col].astype('float32')
 
-    for k,v in cv_results.items():
-        print(k,v)
+        
+    print(some_dataframe.dtypes)
 
-
+# Conversion to DMatrix
+def convert_to_dmatrix(X, y):
+    return xgb.DMatrix(data=X, label=y)
